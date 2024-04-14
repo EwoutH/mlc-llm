@@ -43,6 +43,7 @@ final class ChatState: ObservableObject {
 
     private let threadWorker = ThreadWorker()
     private let chatModule = ChatModule()
+    private let engine = LLMEngine()
     private var modelLib = ""
     private var modelPath = ""
     var modelID = ""
